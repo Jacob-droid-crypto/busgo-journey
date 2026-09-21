@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Ban, SteeringWheel } from "lucide-react";
+import { Ban, BusFront } from "lucide-react";
 import { seatMapFor, type Trip } from "@/lib/busgo-data";
 
 type Props = {
