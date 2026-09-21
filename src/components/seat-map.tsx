@@ -32,7 +32,7 @@ export function SeatMap({ trip, selected, onToggle }: Props) {
       <div className="inline-block rounded-2xl border-2 border-ink/15 bg-paper p-4">
         <div className="mb-3 flex items-center justify-end gap-2 border-b border-ink/10 pb-3 font-mono text-[10px] uppercase tracking-[0.2em] text-ink/40">
           Driver
-          <SteeringWheel className="size-5 text-ink/50" />
+          <BusFront className="size-5 text-ink/50" />
         </div>
         <div className="space-y-2">
           {Array.from({ length: trip.rows }, (_, r) => {
